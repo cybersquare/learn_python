@@ -1,0 +1,27 @@
+2020-12-22 08:59:36 [INFO    ] (basehttp.log_message) "GET /first/ HTTP/1.1" 200 5
+2020-12-22 08:59:37 [INFO    ] (basehttp.log_message) "GET /first/ HTTP/1.1" 200 5
+2020-12-22 08:59:48 [INFO    ] (basehttp.log_message) "GET /first/ HTTP/1.1" 200 5
+2020-12-22 08:59:49 [INFO    ] (basehttp.log_message) "GET /first/ HTTP/1.1" 200 5
+2020-12-22 09:04:23 [INFO    ] (autoreload.trigger_reload) /Users/monish/Desktop/code/fs_python_1m/learn_python/app1/views.py changed, reloading.
+2020-12-22 09:04:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2020-12-22 09:04:30 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/ HTTP/1.1" 200 5319
+2020-12-22 09:04:37 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:04:57 [INFO    ] (autoreload.trigger_reload) /Users/monish/Desktop/code/fs_python_1m/learn_python/learn_python/settings.py changed, reloading.
+2020-12-22 09:04:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2020-12-22 09:04:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2020-12-22 09:05:02 [INFO    ] (views.sum_of_numbers_with_log) Processing your request
+2020-12-22 09:05:02 [INFO    ] (views.sum_of_numbers_with_log) The sum is :210
+2020-12-22 09:05:02 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:05:02 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:05:02 [INFO    ] (views.sum_of_numbers_with_log) Processing your request
+2020-12-22 09:05:02 [INFO    ] (views.sum_of_numbers_with_log) The sum is :210
+2020-12-22 09:05:03 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:05:03 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:05:04 [INFO    ] (views.sum_of_numbers_with_log) Processing your request
+2020-12-22 09:05:04 [INFO    ] (views.sum_of_numbers_with_log) The sum is :210
+2020-12-22 09:05:04 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:05:04 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/?number=20 HTTP/1.1" 200 5363
+2020-12-22 09:05:31 [INFO    ] (views.sum_of_numbers_with_log) Processing your request
+2020-12-22 09:05:31 [ERROR   ] (views.sum_of_numbers_with_log) Error occurred: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2020-12-22 09:05:31 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/ HTTP/1.1" 200 5319
+2020-12-22 09:05:31 [INFO    ] (basehttp.log_message) "GET /sum_of_numbers_log/ HTTP/1.1" 200 5319
