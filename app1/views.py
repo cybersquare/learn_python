@@ -65,7 +65,7 @@ def fileApi(request):
 
 @api_view(['GET'])
 def checkPassword(request):
-    password = request.GET.get('password')
+    password = request.POST.get('password')
     status = 'Invalid password'
     l, u, p, d = 0, 0, 0, 0
     if (len(password) >= 8): 
